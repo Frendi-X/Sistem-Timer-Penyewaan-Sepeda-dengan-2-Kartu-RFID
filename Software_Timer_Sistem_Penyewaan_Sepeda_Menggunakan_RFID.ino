@@ -1,9 +1,9 @@
-#include <SPI.h>
-#include <MFRC522.h>
-#include <LiquidCrystal_I2C.h>
-#include <SoftwareSerial.h>
+#include <SPI.h>                  /* https://github.com/mikaelpatel/Arduino-SPI */
+#include <MFRC522.h>              /* https://downloads.arduino.cc/libraries/github.com/miguelbalboa/MFRC522-1.4.11.zip */
+#include <LiquidCrystal_I2C.h>    /* https://downloads.arduino.cc/libraries/github.com/johnrickman/LiquidCrystal_I2C-1.1.2.zip */
+#include <SoftwareSerial.h>           
 #include <Wire.h>
-#include "Adafruit_Thermal.h"
+#include "Adafruit_Thermal.h"     /* https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_Thermal_Printer_Library-1.4.1.zip */
 
 #define pinSDA 10
 #define pinRST 5
